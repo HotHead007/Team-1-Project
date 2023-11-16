@@ -1,75 +1,82 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f7f4f4;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #dadada;
+  margin: 0;
+  padding: 0;
 }
 
 nav {
-    background-color:#1D294A;
-    color: white;
-    padding: 10px 30px;
-    text-align: left;
-    font-size: 25px;
+  background-color: #1d294a;
+  color: white;
+  padding: 10px 30px;
+  text-align: left;
+  font-size: 25px;
 }
 
 form {
-    color:white;
-    max-width: 400px;
-    margin: 20px auto;
-    margin-top: 100px;
-    background-color : #1D294A;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    min-width: 60%;
+  color: white;
+  max-width: 400px;
+  margin: 20px auto;
+  margin-top: 150px;
+  background-color: #1d294a;
+  padding: 40px 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  min-width: 50%;
 }
 
 label {
-    display: block;
-    padding: 3px 10px;
-    margin-bottom: 16px;
-    font-weight: bold;
-    max-width: 500px;
-    text-wrap: nowrap;
+  display: block;
+  padding: 3px 10px;
+  margin-bottom: 16px;
+  max-width: 500px;
+  text-wrap: nowrap;
+  font-size: 20px;
 }
 
 input {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    border-radius:4px;
+  width: 100%;
+  padding: px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  height: 30px;
+  padding-left: 10px;
 }
 
 button {
-    background-color: rgb(47, 180, 24);
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    border-color:white;
+  background-color: rgb(47, 180, 24);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-color: white;
 }
 
 button:hover {
-    background-color: #00cc0a;
-    color:white;
-    border-color: white;
+  background-color: #00cc0a;
+  color: white;
+  border-color: white;
 }
 
 .error-message {
-    color: red;
-    margin-top: -10px;
-    margin-bottom: 10px;
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
-.heading{
-    text-align:center;
-    color:white;
-    font-weight: bold;
-    font-size: 25px;
+.heading {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
 }
-.flex{
-    display: flex;
-    align-items: center;
+.flex {
+  display: flex;
+  align-items: center;
+  padding-top: 5px;
+}
+.box {
+  width: 100%;
+  display: inline;
 }
