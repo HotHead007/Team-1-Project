@@ -22,12 +22,16 @@ form {
     padding: 20px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    min-width: 60%;
 }
 
 label {
     display: block;
-    margin-bottom: 8px;
+    padding: 3px 10px;
+    margin-bottom: 16px;
     font-weight: bold;
+    max-width: 500px;
+    text-wrap: nowrap;
 }
 
 input {
